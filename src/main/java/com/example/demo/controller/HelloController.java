@@ -12,7 +12,9 @@ public class HelloController {
 	@RequestMapping("/hello")
 	@ResponseBody
 	public String hello() {
-		return "Hello from springboot app";
+//		return "Hello from springboot app";
+		return "Hello!!! Welcome to SpringBootApplication";
+	
 	}
 	
 //	@RequestMapping("/greet")
